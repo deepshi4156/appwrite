@@ -130,6 +130,16 @@ SMTP server user name. Empty by default.
 
 SMTP server user password. Empty by default.
 
+## Functions
+
+### _APP_FUNCTIONS_TIMEOUT
+
+It tells the maximum number of seconds allowed as a timeout value when creating a new function. The default value is 900 seconds.
+
+### _APP_FUNCTIONS_CONTAINERS
+
+It describes the maximum number of containers Appwrite is allowed to keep alive in the background for function environments. Running containers allow faster execution time as there is no need to recreate each container every time a function gets executed. The default value is 10.
+
 ## System Settings
 
 ### _APP_SYSTEM_EMAIL_NAME
